@@ -1,4 +1,4 @@
-openai==1.47.0
+openai
 langfuse==2.51.4
 streamlit
 python-dotenv
