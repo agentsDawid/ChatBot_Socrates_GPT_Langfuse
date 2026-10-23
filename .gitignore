@@ -1,2 +1,22 @@
+# Secrets — never commit real API keys
 .env
-db
+.env.local
+.env.*.local
+
+# Local conversation history may contain private prompts and responses
+db/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

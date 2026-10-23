@@ -1,4 +1,7 @@
-openai
-langfuse==2.51.4
-streamlit
-python-dotenv
+# Dependencies for the current app.py
+# Langfuse 2.x is pinned because app.py uses langfuse.decorators and langfuse.openai.
+streamlit>=1.41.0,<2.0
+openai>=2.32.0,<3.0
+python-dotenv>=1.0.1,<2.0
+requests>=2.32.0,<3.0
+langfuse>=2.60.9,<3.0
